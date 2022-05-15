@@ -2,7 +2,7 @@ public class Person {
 
     private int age;
     private String name;
-    private String cpf;
+    private int cpf;
 
     public String getName() {
         return name;
@@ -12,11 +12,11 @@ public class Person {
         return age;
     }
 
-    public String getCpf() {
+    public int getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(int cpf) {
         this.cpf = cpf;
     }
 

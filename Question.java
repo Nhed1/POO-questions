@@ -41,7 +41,8 @@ public class Question {
 
     private static Person readCpf(int i, Person person) throws InputMismatchException {
         System.out.println("Digite o cpf da pessoa " + (i + 1));
-        person.setCpf(sc.nextLine());
+        person.setCpf(sc.nextInt());
+        sc.nextLine();
         return person;
     }
 
